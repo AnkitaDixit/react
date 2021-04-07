@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+input[type=radio] {
+  border: 0px;
+  width: 100%;
+  height: 1em;
+}
+*{
+  font-size: 15px;
+}
+.ca-bg-ivory {
+  background: #EFEEE9 no-repeat;
+  opacity: 1;
+}
+.ca-bg-silver {
+  background: #F2F2F2 no-repeat;
+  opacity: 1;
+}
+.ca-bg-light-blue {
+  background: #E9F5F8 no-repeat;
+  opacity: 1;
+}
+.ca-bg-black {
+  background-image: url("../assets/images/about-us/image1.jpg");
+  min-height: 550px;
+  opacity: 1;
+}
+
+.ca-bg-light-pink {
+  background: #FFE5E5D3 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.ca-text-orange{
+  color: #FC952F;
+}
+.ca-text-light-green{
+  color: #F2FDCD;
+}
+.ca-text-purple{
+  color: #956EA7;
+}
+.ca-text-light-brown{
+  color: #baa15b;
+}
+.ca-text-light-cyan{
+  color: #489592;
+}
+.ca-text-light-purple{
+  color: #6e62a0;
+}
+.ca-text-light-maroon{
+  color: #ac373e;
+}
+.ca-text-light-navyBlue{
+  color: #4a72ba;
+}
+.ca-text-light-skyblue{
+  color:#58b1d3;
+}
+
+
+.ca-bg-image-home-1{
+  background-image: url("../assets/images/home/main-landing-page-bg-1.png");
+  min-height: 550px;
+}
+.ca-bg-image-home-2{
+  background-image: url("../assets/images/home/main-landing-page-bg-2.png");
+  min-height: 400px;
+}
+.ca-bg-candidate-home-1{
+  background-image: url("../assets/images/candidate-home/candidate-home-page-bg-1.png");
+  min-height: 350px;
+}
+.ca-text-underline{
+  margin: auto;
+  margin-top: 20px;
+  width: 87px;
+  height: 2px;
+  background: #071FC8 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.ca-min-v-100{
+  min-height: 100px;
+}
+.ca-min-v-150{
+  min-height: 150px;
+}
+.ca-min-v-280{
+  min-height: 280px;
+}
+.ca-bg-corporate-toolkit-embrace{
+  background-image: url("../assets/images/corporate-tool-kit/embrace-inclusiveness.png");
+  min-height: 700px;
+}
+.ca-bg-light-yellow {
+  background: #fffdf2 no-repeat;
+  opacity: 1;
+}
+.error-message {
+  color: red;
+}
